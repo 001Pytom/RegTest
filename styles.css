@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+nav,
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 10.3125rem;
+  background-color: #edf3f8;
+}
+
+.logo {
+  width: 10.3125rem;
+}
+
+.left {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.list a {
+  font-weight: 700;
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  color: rgb(54, 83, 107);
+  mix-blend-mode: normal;
+  opacity: 1;
+  text-decoration: none;
+}
+.right a {
+  width: 10.8125rem;
+  height: 3rem;
+  background: rgb(186, 66, 112);
+  box-shadow: rgba(54, 83, 107, 0.25) 0.625rem 0.625rem 1.5625rem -0.625rem;
+  border-radius: 1.5rem;
+  display: grid;
+  place-content: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  letter-spacing: -0.0072rem;
+  color: rgb(251, 252, 254);
+}
+
+main {
+  width: 100vw;
+}
+
+/* .container {
+  padding: 0rem 1.875rem 2.5rem;
+}
+.container .content {
+  max-width: 90rem;
+  width: 100%;
+  position: relative;
+} */
+.container-background {
+  /* width: 48.75rem;
+  height: 48.75rem;
+  right: -19rem;
+  top: -18.875rem;
+  border-radius: 50%;
+  background: rgb(54, 83, 107);
+  mix-blend-mode: normal;
+  opacity: 0.15;
+  position: absolute !important; */
+}
+
+.sect1 {
+  width: 100vw;
+  padding: 0rem 10.3125rem;
+  background-color: #edf3f8;
+}
+
+.sect1-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 7rem;
+}
+
+.left-text {
+  display: flex;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 5.625rem;
+  gap: 1.25rem;
+}
+
+.left-text h1 {
+  max-width: 34.125rem;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+  letter-spacing: -0.0346rem;
+  color: rgb(54, 83, 107);
+}
+
+.left-text p {
+  padding-bottom: 0.625rem;
+  padding-left: 0.5rem;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  color: rgb(108, 130, 148);
+}
+.left-text p a {
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(108, 130, 148);
+}
+
+.sect2 {
+  width: 100%;
+  height: 29.5rem;
+  background: rgb(27, 38, 47);
+  overflow: hidden;
+  padding: 6.25rem 10.3125rem;
+}
+.sect2-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sect2-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6875rem;
+  max-width: 27.8125rem;
+}
+.sect2-left h2 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.0231rem;
+  color: rgb(251, 252, 254);
+}
+
+.sect2-left p {
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.75rem;
+  color: rgb(251, 252, 254);
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+.sect2-left a {
+  width: 8.0625rem;
+  height: 3rem;
+  display: grid;
+  place-content: center;
+  background: transparent;
+  border: 0.0625rem solid rgb(251, 252, 254);
+  border-radius: 1.5rem;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  letter-spacing: -0.0072rem;
+  text-decoration: none;
+  color: rgb(251, 252, 254);
+}
+
+.sect2-right {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  z-index: 100;
+}
+
+.brands {
+  display: flex;
+  gap: 5rem;
+}
+
+.sect3 {
+  background-color: #edf3f8;
+  padding: 2.5rem 10.3125rem 3rem 7.1875rem;
+}
+.sect3-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sect3-right {
+  max-width: 27.8125rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.sect3-right h3 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.0231rem;
+  color: rgb(54, 83, 107);
+}
+
+.sect3-right p {
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.75rem;
+  color: rgb(30, 46, 59);
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+
+.sect4 {
+  width: 100%;
+  padding-bottom: 3.125rem;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  /* padding-left: 2.8125rem; */
+  background-color: #edf3f8;
+  padding: 2.5rem 10.3125rem 3rem 7.1875rem;
+}
+
+.sect4-text {
+  text-align: center;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  max-width: 21.875rem;
+  gap: 2.1875rem;
+}
+
+.sect4-text h4 {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  text-align: center;
+  letter-spacing: -0.0087rem;
+  font-family: "Public Sans";
+  color: #36536b;
+}
+
+.sect4-text p {
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  text-align: center;
+  letter-spacing: -0.0072rem;
+  color: rgb(30, 46, 59);
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+
+.footer-col {
+  padding: 1.875rem 10.3125rem 0.875rem;
+  background-color: rgb(27, 38, 47);
+}
+.list-col a {
+  color: rgb(237, 243, 248);
+}
+.right-foot {
+  display: flex;
+  gap: 1.25rem;
+}
+.submit {
+  padding: 2.5rem 10.3125rem 3rem 7.1875rem;
+  width: 100vw;
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.input,
+textarea {
+  border-top: unset;
+  border-right: unset;
+  border-left: unset;
+  border-image: unset;
+  border-bottom: 0.0625rem solid rgba(54, 83, 107, 0.118);
+  background: transparent;
+  height: 2.625rem;
+  width: 100%;
+  max-width: 27.8125rem;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  letter-spacing: -0.0072rem;
+  color: rgb(54, 83, 107);
+}
+.check-box {
+  display: flex;
+  gap: 1rem;
+}
+
+.submit h1 {
+  max-width: 40%;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  letter-spacing: -0.0269rem;
+  color: rgb(54, 83, 107);
+}
+.submit button {
+  cursor: pointer;
+  margin-top: 1.5rem;
+  width: 9.5rem;
+  height: 3rem;
+  border: 0.0625rem solid rgb(54, 83, 107);
+  border-radius: 1.5rem;
+  font-family: "Public Sans";
+  font-weight: 700;
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  text-align: center;
+  letter-spacing: -0.0072rem;
+  color: rgb(54, 83, 107);
+}
